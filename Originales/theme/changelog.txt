@@ -1,0 +1,35 @@
+Version: 2.2.0
+Date:    11 November 2019
+=========================== 
+Youtube video issue on tablet and mobile fixed
+
+Version: 2.1.0
+Date:    27 October 2019
+=========================== 
+Add: One Home Page
+
+Version: 2.0.1
+Date:    08 September 2019
+=========================== 
+Add: Coming soon page
+
+Version: 2.0.0
+Date:    10 August 2019
+=========================== 
+Update: Update: Bootstrap 4 CSS Framework
+
+Version: 1.0.3
+Date:    25 March 2019
+=========================== 
+Added:	1. RTL Version Included
+
+Version: 1.0.3
+Date:    16 March 2019
+=========================== 
+Fixed:	1. Price Slider Touch Problem in Mobile
+
+Version: 1.0.2
+Date:    10 March 2019
+=========================== 
+Added:	1. Google Map Property Location
+
