@@ -58,10 +58,12 @@
                                             <li><a href="properties.php?categoria=lote">Lotes</a></li>
                                             <li><a href="properties.php?categoria=ranchos">Ranchos</a></li>
                                             <li><a href="properties.php?categoria=tierras">Tierras</a></li>
+                                            <li><a href="properties.php?categoria=negocios">Negocios</a></li>
                                             </ul>
                                         </li>
                                         <li><a href="contact.php">Contacto</a></li>
-                                        <li><a href="busquedas.php">Buscar</a></li>
+                                        <!-- <li><a href="busquedas.php">Buscar</a></li> -->
+                                        <li><a href="busquedas.php"><i class="fas fa-search"></i></a></li>
                                     </ul>
                                 </nav>
                             </div>
@@ -88,10 +90,12 @@
                                             <li><a href="properties.php?categoria=lote">Lotes</a></li>
                                             <li><a href="properties.php?categoria=ranchos">Ranchos</a></li>
                                             <li><a href="properties.php?categoria=tierras">Tierras</a></li>
+                                            <li><a href="properties.php?categoria=negocios">Negocios</a></li>
                                         </ul>
                                     </li>
                                     <li><a href="contact.php">Contacto</a></li>
-                                    <li><a href="contact.php">Buscar</a></li>
+                                    <!-- <li><a href="contact.php">Buscar</a></li> -->
+                                    <li><a href="busquedas.php">Buscar <i class="fas fa-search"></i></a></li>
                                 </ul>
                             </nav>
                         </div>

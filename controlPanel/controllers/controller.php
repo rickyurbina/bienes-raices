@@ -407,8 +407,8 @@ class MvcController{
 
 
 				list($ancho, $alto) = getimagesize($_FILES["nuevaFoto"]["tmp_name"]);
-				$nuevoAncho = 730;
-				$nuevoAlto = 486;
+				$nuevoAncho = 1500;
+				$nuevoAlto = 1500;
 
 				/*=============================================
 				CREAMOS EL DIRECTORIO DONDE VAMOS A GUARDAR LA FOTO DEL USUARIO
@@ -430,7 +430,7 @@ class MvcController{
 					GUARDAMOS LA IMAGEN EN EL DIRECTORIO
 					=============================================*/
 
-					$aleatorio = mt_rand(100,999);
+					$aleatorio = mt_rand(100,99999);
 
 					$ruta = "views/img/propiedades/".$aleatorio.".jpg";
 
@@ -450,7 +450,7 @@ class MvcController{
 					GUARDAMOS LA IMAGEN EN EL DIRECTORIO
 					=============================================*/
 
-					$aleatorio = mt_rand(100,999);
+					$aleatorio = mt_rand(100,99999);
 
 					$ruta = "views/img/propiedades/".$aleatorio.".png";
 

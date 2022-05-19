@@ -142,6 +142,8 @@ include "navAdmin.php";
                                     <option <?php if ($busqueda['categoria']=="Lote") echo 'selected'; ?> >Lote</option>
                                     <option <?php if ($busqueda['categoria']=="Ranchos") echo 'selected'; ?> >Ranchos</option>
                                     <option <?php if ($busqueda['categoria']=="Tierras") echo 'selected'; ?> >Tierras</option>
+                                    <option <?php if ($busqueda['categoria']=="Negocios") echo 'selected'; ?> >Negocios</option>
+                                    <option <?php if ($busqueda['categoria']=="Vendidas") echo 'selected'; ?> >Vendidas</option>
                                 </select>
                             </div>
                         </div>

@@ -38,5 +38,7 @@
     
     <!-- Modernizr JS -->
     <script src="modules/js/vendor/modernizr-2.8.3.min.js"></script>
-    
+    <!-- Images LightBox Effect -->
+    <link href="modules/css/lightbox.css" rel="stylesheet" />
+      
 </head>

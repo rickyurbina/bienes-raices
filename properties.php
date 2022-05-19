@@ -42,7 +42,7 @@ $Categoria = $_REQUEST['categoria'];
                             <ul class="breadcrumbs-list">
                                 <li><a href="index.php">Home</a></li>
                                 <li>Propiedades</li>
-                                <?php if ($Categoria != '' ) echo '<li>'.$Categoria.'S'.'</li>'; ?>
+                                <?php if ($Categoria != '' ) echo '<li>'.$Categoria.'</li>'; ?>
                             </ul>
                         </div>
                     </div>
@@ -310,6 +310,7 @@ $Categoria = $_REQUEST['categoria'];
                                 <span class="price">$${new Intl.NumberFormat().format(propiedad.precio)} USD </span>
                             </div>
                             <p><img src="modules/images/icons/location.png" alt="">${propiedad.direccion}</p>
+                            
                         </div>
                     </div>
                 </div>
@@ -339,6 +340,20 @@ $Categoria = $_REQUEST['categoria'];
                 }
 
                 let popupContent = `<p><a href="properties-details.php?idPro=${propiedad.id}">${propiedad.titulo}</a><br /></p><img src="controlPanel/${propiedad.fotoPrincipal}">`;
+                let ubicacion = ``;
+
+                if (propiedad.latitud === "" || propiedad.longitud === "" || propiedad.latitud === null || propiedad.longitud === null){
+                    ubicacion = `<p><img src="modules/images/icons/location.png" alt="">${propiedad.direccion}</p>`;
+                }
+                else {
+                        ubicacion = `<p><a
+                                        href="https://www.google.com.mx/maps/dir/${propiedad.latitud},${propiedad.longitud}/"
+                                        target="_blank"> 
+                                        <img src="modules/images/icons/location.png" alt="">
+                                        ${propiedad.direccion}
+                                       </a>
+                                    </p>`;
+                }
 
                 if(propiedad.latitud && propiedad.longitud && propiedad.latitud != "" && propiedad.longitud != ""){
                     markers.addLayer(L.marker([parseFloat(propiedad.latitud),parseFloat(propiedad.longitud)], { icon: pinIcon }).bindPopup(popupContent).openPopup());
@@ -372,7 +387,7 @@ $Categoria = $_REQUEST['categoria'];
                                         <h5><a href="properties-details.php?idPro=${propiedad.id}">${propiedad.titulo}</a></h5>
                                         <span class="price">$${new Intl.NumberFormat().format(propiedad.precio)} ${propiedad.moneda} </span>
                                     </div>
-                                    <p><img src="modules/images/icons/location.png" alt="">${propiedad.direccion}</p>
+                                    ${ubicacion}
                                 </div>
                             </div>
                         </div>

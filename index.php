@@ -154,6 +154,11 @@
                                                     <h4><img src="images/icons/7.png" alt=""><a href="properties.php?categoria=casa">En oferta</a></h4>
                                                 </div>
                                             </div>
+                                            <div class="col-xl-3 col-lg-6 col-md-6">
+                                                <div class="features-include-list">
+                                                    <h4><i class="fas fa-building"></i><a href="properties.php?categoria=negocios">&nbsp Negocios</a></h4>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -196,33 +201,8 @@
 
             <!-- SERVICES AREA END -->
            <?php
-            //$Propiedades = new Propiedades();
-            //$Propiedades -> ctlHayOfertas();
 
            ?>
-
-            <!-- BOOKING AREA START 
-            <div class="booking-area bg-1 call-to-bg plr-140 pt-75">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-lg-3 col-md-4 col-12">
-                            <div class="section-title text-white">
-                                <h3>TE INTERESA</h3>
-                                <h2 class="h1">VENDER ?<br><br><br></h2>
-                            </div>
-                        </div>
-                        <div class="col-lg-9 col-md-8 col-12">
-                            <div class="booking-conternt clearfix">
-                                <div class="book-house text-white">
-                                    <h2>PUEDO PROMOCIONAR Y CONCRETAR TU VENTA</h2>
-                                    <h2 class="h5">LLAMAME AL : <a href="tel:+52-625-125-2928">625 125 2928</a> </h2>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>-->
-            <!-- BOOKING AREA END -->
         </section>
         <!-- End page content -->
         <?php
@@ -249,6 +229,9 @@
     <script src="modules/js/plugins.js"></script>
     <!-- Main js file that contents all jQuery plugins activation. -->
     <script src="modules/js/main.js"></script>
+    <!--  Images LightBox effect -->
+    <script src="modules/js/lightbox.js"></script>
+    <script src="modules/js/lightbox-plus-jquery.js"></script>
 
 </body>
 

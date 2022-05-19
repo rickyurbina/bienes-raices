@@ -130,6 +130,8 @@ include "navAdmin.php";
                                     <option>Lote</option>
                                     <option>Ranchos</option>
                                     <option>Tierras</option>
+                                    <option>Negocios</option>
+                                    <option>Vendidas</option>
                                 </select>
                             </div>
                         </div>

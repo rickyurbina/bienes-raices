@@ -61,7 +61,7 @@ $Categoria = $_REQUEST['categoria'];
                                                     <label for="">Nombre o Ubicación</label>
                                                 </div>
                                                 <div class="col-12">
-                                                    <input type="text" id="search" name="textoBuscar" placeholder="Buscar" required>
+                                                    <input type="text" id="search" name="textoBuscar" placeholder="Buscar">
                                                 </div>
                                             </div>
  
